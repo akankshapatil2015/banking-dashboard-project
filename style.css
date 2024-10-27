@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(#e019a1, #fff);
+  background-color: #e019a1;
+}
+
+header {
+  width: 100%;
+  margin-top: auto;
+  padding: 10px;
+  text-align: center;
+  background-color: #7e1e60;
+  color: white;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 16px; /* Base font size for mobile */
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.container {
+  flex: 1;
+  padding: 10px; /* Base padding for mobile */
+}
+
+h1 {
+  color: #000;
+}
+
+h2 {
+  color: #30132b;
+}
+
+.balance {
+  margin: 20px 0 40px;
+}
+
+#balance {
+  font-size: 1.25rem; /* Base balance size for mobile */
+}
+
+.transaction {
+  margin-bottom: 30px;
+}
+
+.transaction h3 {
+  margin: 5px 0;
+}
+
+.transaction input {
+  padding: 10px;
+  width: 100%; /* Base width for mobile */
+  margin-bottom: 10px; /* Space below input on mobile */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.transaction button {
+  padding: 10px 20px;
+  background-color: #7e1e60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Full width for mobile */
+}
+
+.transaction button:hover {
+  background-color: #7e1e60;
+}
+
+footer {
+  width: 100%;
+  margin-top: auto;
+  padding: 10px;
+  text-align: center;
+  background-color: #7e1e60;
+  color: white;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Media Queries for larger screens */
+@media (min-width: 481px) {
+  .transaction input {
+    width: 50%; /* Input width for small tablets */
+  }
+
+  .transaction button {
+    width: auto; /* Button width for small tablets */
+  }
+
+  #balance {
+    font-size: 1.5rem; /* Balance size for small tablets */
+  }
+
+  header h1 {
+    font-size: 18px; /* Header font size for small tablets */
+  }
+}
+
+@media (min-width: 769px) {
+  .container {
+    max-width: 90%; /* Container max width for larger screens */
+    padding: 15px; /* Padding for larger screens */
+  }
+
+  header h1 {
+    font-size: 20px; /* Header font size for larger screens */
+  }
+
+  #balance {
+    font-size: 2rem; /* Balance size for larger screens */
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Bank - Banking Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><h1>Smart Bank - Banking Made Easy</h1></header>
+    <div class="container">
+      <h1>Dashboard</h1>
+      <div class="balance">
+        <h2>Current Balance: <span id="balance">$1000</span></h2>
+      </div>
+
+      <div class="transaction">
+        <h3>Deposit Money</h3>
+        <input
+          type="number"
+          id="depositAmount"
+          placeholder="Enter deposit amount"
+        />
+        <button id="depositBtn">Deposit</button>
+      </div>
+
+      <div class="transaction">
+        <h3>Withdraw Money</h3>
+        <input
+          type="number"
+          id="withdrawAmount"
+          placeholder="Enter withdrawal amount"
+        />
+        <button id="withdrawBtn">Withdraw</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 SmartBanker | Contact: info@smartbanker.com</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
