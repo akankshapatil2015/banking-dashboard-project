@@ -3,7 +3,7 @@
 Welcome to **Smart Bank - Banking Dashboard**! This project is a simple and responsive web application that allows users to manage their balance by depositing and withdrawing money. The app is built using **HTML, CSS, and JavaScript**, demonstrating fundamental concepts of front-end development.
 
 ## Demo
-You can view a live demo of this project [here](#).
+You can view a live demo of this project [here](#https://banking-dashboard-project-theta.vercel.app/).
 
 ## Features
 - View current balance.
